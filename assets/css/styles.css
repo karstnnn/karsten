@@ -229,10 +229,28 @@ img {
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   transition: 0.3s;
+  align-self: flex-start;
 }
 .button:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
+
+.project-button {
+  display: inline-block;
+  color: var(--first-color);
+  background-color: #fff;
+  border: 2px solid var(--first-color);
+  padding: 0.75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  align-self: flex-start;
+}
+.project-button:hover {
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+
 
 /* ===== ABOUT =====*/
 .about__container {
